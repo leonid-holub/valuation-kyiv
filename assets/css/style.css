@@ -297,7 +297,7 @@ div#preloader {
 
 .logo__link {
   display: block;
-  height: 50px;
+  height: auto;
   color: white;
 }
 
@@ -306,26 +306,28 @@ div#preloader {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 50px;
+  width: 250px;
+  height: auto;
   cursor: pointer;
 }
 
 .logo__head {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .logo__image {   
+  height: auto;
   fill: #2dc997;
 }
 
 .logo__title {
+  text-align: center;
   display: block;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 500;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 20px;
   margin-bottom: 0;
   color: white;
 }
@@ -334,8 +336,8 @@ div#preloader {
   width: 100%;
   font-size: 10px;
   text-align: center;
-  letter-spacing: 2px;
-  word-spacing: 5px;
+  letter-spacing: 3px;
+  word-spacing: 7px;
   margin-bottom: 0px;
   color: white;
 }
@@ -635,6 +637,7 @@ div#preloader {
 }
 
 #hero .container {
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -687,8 +690,21 @@ div#preloader {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 1px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 0 auto;
   color: #fff;
+}
+
+
+#hero ul {
+  text-align: start;
+  list-style: circle;
+}
+
+
+#hero li p {
+ font-weight: 500;
+ line-height: 1.5;
+ font-size: 28px;
 }
 
 @media (min-width: 1024px) {
@@ -774,7 +790,7 @@ div#preloader {
   padding: 8px 32px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 40px 10px 10px;
   color: #fff;
   background: #2dc997;
 }
