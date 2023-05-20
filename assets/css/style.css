@@ -270,6 +270,7 @@ div#preloader {
   cursor: pointer;
 }
 
+
 .logo__head {
   display: flex;
   align-items: center;
@@ -971,6 +972,13 @@ div#preloader {
 
 .footer-logo {
   padding-bottom: 20px;
+} 
+
+@media screen and (min-width: 480px) {
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer-logo h2 {
@@ -1008,6 +1016,14 @@ div#preloader {
   margin-right: 35px;
 }
 
+@media screen and (min-width: 480px) {
+  .footer-icons ul li div {
+   margin: 0 20px;
+  }
+}
+
+
+
 .footer-icons ul li a i {
   line-height: 0;
 }
@@ -1024,10 +1040,29 @@ div#preloader {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .footer-icons ul {
+    display: flex;
+    justify-content: center;
+}
+
+
 .footer-contacts p span {
   color: #2dc997;
   font-weight: 700;
 }
+
+@media screen and (min-width: 480px) {
+  .footer-contacts p {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-contacts p {
+    text-align: start;
+}
+
+
 
 .popular-tag ul li {
   display: inline-block;
@@ -1349,7 +1384,7 @@ div#preloader {
   }
 
   .footer-content {
-    margin-bottom: 00px;
+    margin-bottom: 0;
   }
 
   .header-bottom h1 {
