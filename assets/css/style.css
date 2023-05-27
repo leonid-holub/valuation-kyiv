@@ -694,7 +694,7 @@ div#preloader {
  
  @media (max-width: 768px) {
    #hero li p {
-     font-size: 22px;
+     font-size: 18px;
      line-height: 1.2;
    }
  }
@@ -974,7 +974,7 @@ div#preloader {
   padding-bottom: 20px;
 } 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   .logo {
     margin-left: auto;
     margin-right: auto;
@@ -1040,7 +1040,7 @@ div#preloader {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   .footer-icons ul {
     display: flex;
     justify-content: center;
@@ -1052,7 +1052,7 @@ div#preloader {
   font-weight: 700;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   .footer-contacts p {
     text-align: center;
 }
